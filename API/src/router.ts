@@ -3,7 +3,6 @@ import { connectDB } from './db';
 
 const router = express.Router();
 
-// Define a interface para o corpo da requisição
 interface ItemRequest {
   name: string;
 }
